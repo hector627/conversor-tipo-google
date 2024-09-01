@@ -10,27 +10,31 @@
   
   <main class="main">
     <div class="container">
-      <select class="select-units"></select>
-      <div class="secondarys-selects">
-        <div class="content-select-value">
-          <div class="input-container">
-            <input type="number" class="input">
-          </div>
-          <select name="" class="select-value-one"></select>
-        </div>
-        <div class="equal">=</div>
-        <div class="content-select-value">
-          <div class="input-container">
-            <input type="number" class="input">
-          </div>
-          <select name="" class="select-value-two"></select>
-        </div>
+      <div class="content-select-unit">
+        <select class="select-unit"></select>
+      </div>
+      <div class="content-select-value inline-block">
+        <input type="number">
+        <select name="" class="select-value-one select-value"></select>
+      </div>
+      <div class="equal inline-block">=</div>
+      <div class="content-select-value inline-block">
+        <input type="number">
+        <select name="" class="select-value-two select-value"></select>
       </div>
       <div class="container-formula">
-        <div class="formula-title">
-          <h4 class="formula-title__h3">Fórmula</h4>
-        </div>
-        <div class="formula-value"></div>
+        <table>
+          <tr>
+            <td>
+              <div class="formula-title">Fórmula</div>
+            </td>
+            <td>
+              <div class="formula-value"></div>
+            </td>
+          </tr>
+        </table>
+        <!-- <div class="formula-title">
+        </div> -->
       </div>
     </div>
   </main>
